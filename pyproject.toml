@@ -5,7 +5,7 @@ description = "Default template for PDM package"
 authors = [
     {name = "Erick Cruz", email = "crzerick6@gmail.com"},
 ]
-dependencies = ["dotenv>=0.9.9"]
+dependencies = ["dotenv>=0.9.9", "langchain-anthropic>=0.3.12", "langchain-core>=0.3.58", "langgraph>=0.4.1", "langgraph-cli[inmem]>=0.2.8", "langchain-community>=0.3.23", "pypdf>=5.4.0", "langchain-chroma>=0.2.3"]
 requires-python = "==3.13.*"
 readme = "README.md"
 license = {text = "MIT"}
